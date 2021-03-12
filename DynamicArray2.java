@@ -124,7 +124,6 @@ public class DynamicArray2 {
 	public void set(int index, String s) {
 		if (index < 0 || index >= size())
 			throw new IndexOutOfBoundsException();
-
 		data[index] = s;
 	}
 
